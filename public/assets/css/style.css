@@ -1,0 +1,83 @@
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+ .carousel-img {
+width: 100%;
+max-height: 550px; /* Maximum height for larger screens */
+object-fit: contain;
+}
+
+/* Custom adjustments for different screen sizes */
+@media (max-width: 768px) {
+.carousel-img {
+  max-height: 300px; /* Smaller height for medium devices */
+  object-fit: contain;
+}
+
+
+.team-image-box {
+  height: 220px; /* Customize this value to fit your design */
+  width:  auto;
+  object-fit: contain;
+}
+}
+
+@media (max-width: 576px) {
+.carousel-img {
+  max-height: 200px; /* Even smaller height for small devices */
+  object-fit: contain;
+}
+
+
+.team-image-box {
+  height: 220px; /* Customize this value to fit your design */
+  width:  auto;
+  object-fit: contain;
+}
+}
+
+.carousel-caption {
+background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+padding: 15px;
+border-radius: 10px;
+}
+.service-card {
+  height: 500px; /* Customize this value to fit your design */
+  width: auto;
+}
+.team-image-box {
+  height: 220px; /* Customize this value to fit your design */
+  width: auto;
+  object-fit: contain;
+}
+.swiper-card {
+  background-color:#cbf1f7;
+}
+.footer-link:hover {
+color: black; /* Change this to your desired hover color */
+text-decoration: underline; /* Optional: add underline on hover */
+}
+.footer-link:hover {
+color: #ffcc00; /* Change this to your desired hover color */
+text-decoration: underline; /* Optional: add underline on hover */
+}
+.footer-link {
+transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-link:hover {
+color: #ffcc00;
+text-decoration: underline;
+}
+.avatar {
+  width: 10vh;
+  height: 10vh;
+}
+.product_cart_img {
+  width: 20vh;
+  height: 20vh;
+}
